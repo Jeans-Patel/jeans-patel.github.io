@@ -1,0 +1,80 @@
+{
+  "main": {
+    "isHomePage":false,
+    "companyName":"CIBC",
+    "description":"This page will show you my goals and reflections from my 8-month Co-op Term",
+    "aboutLine":"About CIBC",
+    "image":"/portfolio/cibc logo.jpg",
+    "bio":"CIBC is one of the five big banks in Canada. The bank is headquarted in Toronto with over 40 000 employess and over 10 million clients worldwide. My team was part of Capital Markets which deals with currency exchange.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "jeans@uoguelph.ca",
+    "phone": "647-654-2505",
+    "github":"https://github.com/jeans-patel/",
+    "project":"https://www.linkedin.com/in/jeans-patel/",
+    "name":"Jeans Patel",
+    "address":{
+      "city":"Milton",
+      "state":"Ontario",
+      "zip": "L9T 8P1"
+    },
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jeans-patel/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/jeans-patel/",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"These are some skills I've learned throughout my projects and work experience.",
+    "jobDescription":[
+      {
+        "header":"Java Developer",
+        "description":"During my 8 month co-op term at CIBC I was working as a Java Developer. I worked with a team of professionals to redesign an existing application to increase its efficiency using Java. I got the opportunity to learn the SpringBoot framework to develop my module for the application. I was responsible of developing the controller module which tracked the status of the other modules and performed some tasks based on the status of the other modules. I was also responsible of creating a new dashboard for the application. This dashboard had to be included in the existing portal so I learned how to integrate a new feature onto an existing application. The dashboard was made using a MVC model using Java for the backend and JavaScript and HTML in the frontend. Finally, I was also given tasks to make scripts to maintain the log files for the application and to start and stop each module for the application. The deployment process of our application started near the end of my co-op term so I got a chance to work with the QA team to perform end-to-end testing for my module."
+      }
+    ],
+    "goals":[
+      {
+        "header":"Applying my universtiy knowledge to the real world",
+        "description":"During this co-op term I was mainly working with Java and following the object oriented principles to develop my module. This was my first co-op term so I wanted to take this opportunity to apply the object oriented principles I learned in university to the real world. My plan was to integrate OOP principles into any modules that I contributed to and understand how they enhance the overall flow of the application. I achieved this goal throughout the term by applying these principles in my module making and I even learned more programming concepts that I hadn’t learned in university such as defensive programming which is a core concept in banking software since an error in the code can cause huge implications for consumers."
+      },
+      {
+        "header":"Teamwork",
+        "description":"This was also my first time working in a professional team environment. I wanted to learn how professionals work together to complete a project since I’d mainly worked on independent projects in university. My plan was to drop-in on any team meetings to see how professionals communicate their problems/ideas to their teams. Over the course of the 8 months I took part in many meetings including the daily stand-ups and design touch-bases. I also joined meetings for other projects to see how different teams communicate and all of these meetings showed me how developers use documentation to enhance their communication. Most meetings are usually 30 mins long and that's usually not enough time for everyone to discuss all their problems so people would usually talk about critical issues during the meetings and update the team confluence page regarding any smaller queries. This made communicating clear and efficient."
+      },
+      {
+        "header":"Developing a new application",
+        "description":"Another goal of mine was to learn the development cycle of a new application/feature in the professional world. I planned to achieve this by going through the existing documentation to see how the application/feature was developed and see the future plan of the application. This was made easy since all the planning before I joined had been documented. The product was still under development when I joined so I got the opportunity to suggest some ideas on how some tasks should be handled. The existing application was split into modules, each with its own purpose. Communication between the modules was done using a queue system and common data was stored in a database. Using a database reduced consistency issues since the data being manipulated by one module can easily be seen by another module. This project taught me how splitting up a project into multiple modules can simplify the project and make certain functions reusable, such as the communication module which handled all the communication between different modules."
+      },
+      {
+        "header":"Documentation",
+        "description":"At university, we never have to document our test cases since they just mark our final project so I wanted to improve my documentation skills throughout the testing and deployment process. After the first 4 months, my project was entering the testing/deployment phase so my plan was to document all my tests using Excel and whenever I come across an unsuccessful test, I’d try to document what caused the issue and document my code changes using GitHub. The team had a confluence page dedicated to test cases where our team leader posted required test cases for each module and any extra tests done by the developers were also posted there. I learned how the QA team works with the development team to track and resolve issues. Applications in production had open issues on GitHub with developers worked on to resolve but since my application didn’t reach the production stage before my term ended, we resolved the issues internally and wrote the issue we resolved in our commit message. At the end of my term, I had a page of my test cases and my GitHub commit history showed all the issues I had resolved over the testing phase."
+      },
+      {
+        "header":"Time Management",
+        "description":"After the first 4 months, I wanted to improve how I spent my time at work. I realized that in the first 4 months I spent too much time stuck on the same problem. Since this is my second 4 month term at CIBC, I'd be less hesitant to ask for clarification when I'm confused about a new task which will give me more time to complete the task. Whenever I come across a new concept/tool I'd try to spend time outside of work to learn it and use my time at work to ask questions about the new concept/tool. I was a lot more productive in my last 4 months at CIBC. I was more comfortable with my team so I asked questions if something was unclear and was less nervous of making a mistake when communicating to them. I noticed that I was completing my tasks a lot quicker since I’d spend less time confused about my task. I also spent some time outside of work to learn new tools/concepts so I could finish my tasks faster during work hours."
+      },
+      {
+        "header":"Testing",
+        "description":"Lastly, I wanted to improve my testing skills since in university we only test cases that are outlined in the assignment. My plan was to ask my co-workers how I can improve my testing and observe how they are testing their modules to see if I missed anything. I learned a lot about thoroughly testing an application meant for production from my team. The biggest surprise for me was how they test their error handling to make sure the production team gets notified if something goes wrong. In university, we don’t have to worry about error handling as much since the projects are small and we usually test our projects to avoid errors since an error usually results in a bad grade. I learned the importance of error handling while working on this project since our application was part of a large system and if there was an unchecked error in our application it could stop the whole system so it was more important that we handled any potential errors and kept the application running."
+      }
+    ],
+    "conclusion":[
+      {
+        "header":"Final Thoughts",
+        "description":"Working at CIBC was an experience that taught me how to be a better developer and a better team player. I was my first time working in the real world in a technical field and my team helped me learn new technologies and helped me grow as a person. My experience there is definitely helped me understand my future plans and I loved the opportunity to work with such a great team. Unfortunately, this 8 month co-op term was during Covid and I had to work from home for the entire term so I never got the chance to meet any of my team members in person."
+      }
+    ],
+    "acknowledgements":[
+      {
+        "header":"Thank you",
+        "description":"I want to thank my manager, Priyam Sengupta, for offering me this great opportunity. I also want to thank my team members, Chandran, Sanhith, and Nagesh, who worked closely with me to train me throughout these 8 months. "
+      }
+    ]
+  }
+}

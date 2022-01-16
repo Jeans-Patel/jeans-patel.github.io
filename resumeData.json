@@ -1,0 +1,81 @@
+{
+  "main": {
+    "isHomePage":true,
+    "name":"Jeans Patel",
+    "description":"I am a forth year Computer Science student at the University of Guelph",
+    "aboutLine":"About Me",
+    "image":"sunglasses.jpg",
+    "bio":"I'm working towards my Bachlors in Computing with a Mathamatics minor at the University of Guelph. I enjoy learning new languages and applying the skills I learned at university in the real world. I love working in teams and meeting new people. My hobbies include online gaming, table tennis, computers and I've recently gotten intrested in VR technology.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "jeans@uoguelph.ca",
+    "phone": "647-654-2505",
+    "github":"https://github.com/jeans-patel/",
+    "project":"https://www.linkedin.com/in/jeans-patel/",
+    "address":{
+      "city":"Milton",
+      "state":"Ontario",
+      "zip": "L9T 8P1"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1xbHd_Oukig_VB1Lifij_NkRqFsWnMHly/view?usp=sharing",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jeans-patel/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/jeans-patel/",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"These are some skills I've learned throughout my projects and work experience.",
+    "education":[
+      {
+        "school":"University of Guelph",
+        "degree":"Bachlors in Computing (Co-op)",
+        "graduated":"September 2018 - Present",
+        "description":"Culminative GPA: 85%. I'm working towards a Mathematics minor along with my bachlors in computing. I've been on the honor roll every year and I'm a part of the University League of Legends team."
+      }
+    ],
+    "project":[
+      {
+        "name":"Image Processing",
+        "subject":"Image Processing and Vision",
+        "years":"March 2021",
+        "description":"I worked with a partner to implement and compare image processing algorithms using reserch articles. I used Python to implement, test, and compare various image processing algorithms. After performing the tests, I presented the algorithms, methods of testing, and results in an organized report. This project improved my analyzing and presentation skills and I learned more about Python."
+      },
+      {
+        "name":"Inventum - Media Browsing App",
+        "subject":"Software Engineering",
+        "years":"April 2021",
+        "description":"I worked in a group of 4 other classmates to add functionality to an existing open-source Andriod application using Java. We following the agile-scrum methodology to develop the application and we used GitHub to manage the project. Sprints were 2 weeks long and after each sprint we presented out progress to the class. After the final sprint we presented our final product to the professor and class through a formal presentation. This project improved my collaboration, organization and presentation skills, this was also my first time working with Andriod development."
+      },
+      {
+        "name":"SVG Parser",
+        "subject":"Software System Development and Integration",
+        "years":"March 2020",
+        "description":"This was an independant project for my Software System Development and Integration course. I built and used a C library to parse SVG images. I used JavaScript, HTML, and CSS to create a webpage to display information about the parsed SVG images. All the data about the SVG images were stored in a MySQL database. This was my first time working with webpages and librarys so I learned how the front-end and back-end work together to display information. I also learned how to use JQuery and AJAX to create webpages."
+      },
+      {
+        "name":"Rouge-like 3D Game",
+        "subject":"Game Programming",
+        "years":"April 2021",
+        "description":"This was an independant project for my Game Programming course. I created a 3D rouge-like gaming using a game engine in C. First, I generated random maze-like rooms, corridors, and levels. These rooms were randomized every time the game was restarted so you'd always enter a new layout. Then, I added enemies, obstacles so the player has elements to interact with. Finally, I added 'fog-of-war' to optimize and refine the game. I have a passion for gaming and this project taught me the fundamentals of game design."
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"CIBC - Java Developer",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"cibc logo.jpg",
+        "src":"/CoopTerm1"
+      }
+    ]
+  }
+}
