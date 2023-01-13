@@ -8,13 +8,13 @@ class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const projects = this.props.data.projects.map(function (projects) {
+    const projects = this.props.data.projects.map((projects) => {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <Link to={projects.src}>
+            <Link to="/Coop" state={{ coopDataUrl: projects.data}}>
               <img alt={projects.title} src={projectImage}/>
             </Link>
             <div style={{ textAlign: "center" }}>{projects.title}</div>
@@ -34,6 +34,7 @@ class Portfolio extends Component {
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
+                {console.log(projects)}
                 {projects}
               </div>
             </div>

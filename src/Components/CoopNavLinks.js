@@ -42,12 +42,6 @@ const CoopNavLinks = (props) => {
                 Acknowledgements
               </Link>
             </li>
-
-            <li>
-              <Link activeClassName="active" className="smoothscroll" to="contact" spy={true} smooth={true} onClick={() => props.isMobile && props.closeMenu()}>
-                Contact
-              </Link>
-            </li>
         </ul>
      );
 }

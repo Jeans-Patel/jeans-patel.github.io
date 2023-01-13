@@ -1,0 +1,81 @@
+{
+    "main": {
+      "isHomePage":false,
+      "companyName":"ecobee",
+      "description":"This page will show you my goals and reflections from my second 8-month co-op term",
+      "aboutLine":"About ecobee",
+      "image":"/portfolio/ecobee logo.jpg",
+      "bio":"ecobee is a leading developer in the smart thermostat and home monitoring industry. They are based in Toronto and their latest thermostat has been rated the best thermostat in 2022 by many tech media outlets. ecobee's vision is to create a sustainable future for everyone and their core values are protecting the user's privacy.",
+      "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+      "email": "jeans@uoguelph.ca",
+      "phone": "647-654-2505",
+      "github":"https://github.com/jeans-patel/",
+      "project":"https://www.linkedin.com/in/jeans-patel/",
+      "name":"Jeans Patel",
+      "address":{
+        "city":"Milton",
+        "state":"Ontario",
+        "zip": "L9T 8P1"
+      },
+      "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/jeans-patel/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"github",
+          "url":"https://github.com/jeans-patel/",
+          "className":"fa fa-github"
+        }
+      ]
+    },
+    "resume":{
+      "skillmessage":"These are some skills I've learned throughout my projects and work experience.",
+      "jobDescription":[
+        {
+          "header":"Android Developer",
+          "description":"I worked as an Android developer during my time at ecobee. During my time there I got to work in an agile-sprint and a Kanban board environment. They were both managed using Jira which gave me some good experience since I’d be creating new tickets if I spotted a bug or wanted to split a larger ticket into smaller tickets. I started off working on the energy team but eventually I ended up working for the cameras team as well. This allowed me to work with different teams and in different areas of the app. I developed the app using Kotlin and the backend was connected using graphql. I also learned how user interactions can be tracked using Firebase and amplitude. I learned many new skills while working on various different tickets, from bug fixes to adding new features to converting older screens to Jetpack Compose. My key highlights from these 8 months are creating a series of drawers and screens which introduced the users to a new UI, converting various older screens to Jetpack Compose, and working on the settings screens for a new product. I was also given to opportunity to publish the new update on our app using the Google Play console. I also had to release hot-fixes for our app using the Google Play console for one of our updates. I got to work with product owners, design team, QA team, iOS developers and engineering managers during my time at ecobee which gave me a new perspective to developing for a large application."
+        }
+      ],
+      "goals":[
+        {
+          "header":"Testing",
+          "description":"My first goal was to get better at writing tests for my features. I'd done unit testing in the past but not to this degree, the application is a lot larger than university assignments meaning there are more things to test. There is also screenshot testing in the workflow at ecobee which I've never worked with before, so my goal was to learn how to use that as well. My plan was to look at existing unit tests and screenshot tests to see what gets tested, I'd already learned that screenshot tests compare screenshots of old screens and new screens pixel by pixel to make sure there aren't any unintended changes to the UI. I achieved this goal since I write comprehensive unit and screenshot tests and check all cases of my feature using whenEach(), andEach(), and forAll() in espressoTests to test each case of my feature. This can also be seen in my code reviews where my first few tickets had comments on them suggesting that I should add more tests but nowadays the reviews are more focused on the feature itself and less on the tests."
+        },
+        {
+          "header":"Code Reviews",
+          "description":"My second goal was to get better at writing code reviews for other developers. I'd never done any code reviews in university or any previous co-ops, so I'd like to get better at looking at open PRs and giving my opinion on their changes. I'd also get better at receiving feedback on my PRs. My plan was to look at the reviews given by people on open PRs to see what they're looking for. Point out things that I would've done differently or ask for clarification if there are some changes that seem unnecessary. When receiving a review I'd like to explain my changes when I see a better solution and discuss with the reviewer to find the optimal solution. My goal was to do at least one code review on open PRs every week. I achieved my goal of performing at least one code review every weak and after the first few weeks I started doing around 3-4 code reviews per week. I also started to comment on them more since I started to notice if something was missing from either the feature or the tests."
+        },
+        {
+          "header":"Android Development / Kotlin",
+          "description":"My third goal was to improve my skills at Android development and Kotlin. I'd done android development in the past with Java and Flutter but never Kotlin so I'd like to transfer my knowledge from Java/Flutter to Kotlin and get good at writing efficient code. My plan was to try to see how I would make a new feature or widget using Flutter/Java and see if there is a similar implementation in Kotlin. Kotlin also provides some tools that Flutter/Java don't have so I'd also explore other implementation options to see what works best for that feature. I achieved these goals since my first ticket took nearly 2 weeks to code, then another week updating it to accommodate the comments on the PR, compared to now where I can easily code an average ticket in a week, and smaller tickets can usually be coded in a day. The comments on my tickets have also been a lot more focused on smaller things like typos and naming rather than suggesting a bettor solution."
+        },
+        {
+          "header":"Organizing large tickets",
+          "description":"My fourth goal was to get better at identifying large tickets and splitting them into smaller tickets to make reviewing my PRs easier. I want to improve my ability to split large tickets into multiple PRs. I found myself working on a couple of large tickets in the first 4 months and wanted to get better at identifying large tickets and splitting them into smaller PRs to make the reviewing processes faster. My plan was that whenever I took a ticket with changes that required a lot of changes or refactoring to be done to add the new features, I'll make a separate PRs for each small feature that needed refactoring. As a result, my PRs are a lot smaller now since I split up larger tickets into multiple PRs or just split them into smaller tickets, then opening a PR for each ticket. This resulted in my PRs being merged in significantly faster since it is easier to review them."
+        },
+        {
+          "header":"Code reusability",
+          "description":"After the first 4 months I realised that in university we only think about writing the code for the specific assignment, so we don't think about the reusability of our code. My goal was whenever I added a new feature, I'd like to make my code easier to work with for any future development. My plan was that whenever I received a ticket of adding a new UI element to the app, I'd try to add an attribute to an existing compose widget or add a new compose widget into the library to make the UI element reusable if it ever needs to be used again. By the end of the term, I'd started to think more about reusability when writing code. Whenever I added a new widget to the app, I tried to make it reusable and put it in our widgets folder so it can easily be reused for another ticket. This also reduced code duplication throughout the app."
+        },
+        {
+          "header":"Debugging",
+          "description":"Lastly, I wanted to improve my debugging skills by making myself more comfortable with the debugging tool in Android Studio. My go-to debugging tool was a println() statement and after working with some co-workers on some issues I realized that the debugging tool can be a lot more helpful. In university we were never required to use the debugging tool, and the assignment were easy enough that simple println() statements were sufficient to solve most bugs. There are many of moving parts in larger code bases and println() won't cut it anymore, so I wanted to improve my skills with the debugging tool. My plan was to familiarize myself with the tools available in the debugger by using it over adding println() statements throughout the code to resolve my issues. I achieved my goals since by the end of the term, I knew how to use the debugging tool in Android Studio and it is my go-to tool when it comes to debugging. Over the last 4 months I didn’t use println() to track variable values and instead have used the debugging tool to track their values. I've learned that I can easily track variables on the fly while using the debugging tool instead of inserting another println() and rebuilding the program to track a new variable."
+        }
+      ],
+      "conclusion":[
+        {
+          "header":"Final Thoughts",
+          "description":"Working at ecobee was an experience that taught me how to be a better developer and a better team player. This was my favourite coop term and I absolotely loved the people at ecobee. The people around me taught me new technical skills and helped me grow as a person. My experience there is definitely helped me understand my future plans and I loved the opportunity to work with such a great team."
+        }
+      ],
+      "acknowledgements":[
+        {
+          "header":"Thank you",
+          "description":"I want to thank my managers, Ayana Moniz, Tom Vamos, and Sucharita Gaat, for offering me this great opportunity. I also want to thank my team members, Jason, Dustin, and Oliver, who worked closely with me and mentored me throughout these 8 months. I'd also like to thank the product team, design team and the QA team for giving me an new perspective to developing."
+        }
+      ]
+    }
+  }
+  

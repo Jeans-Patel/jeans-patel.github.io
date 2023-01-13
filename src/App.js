@@ -10,7 +10,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import Home from "./Pages/Home";
-import CoopTerm1 from "./Pages/CoopTerm1";
+import Coop from "./Pages/Coop";
 
 class App extends Component {
   constructor(props) {
@@ -48,7 +48,7 @@ class App extends Component {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
-          <Route path="/CoopTerm1" element={<CoopTerm1/>}/>
+          <Route path="/Coop" element={<Coop/>}/>
         </Routes>
       </BrowserRouter>
       // <div className="App">

@@ -2,10 +2,10 @@
   "main": {
     "isHomePage":false,
     "companyName":"CIBC",
-    "description":"This page will show you my goals and reflections from my 8-month Co-op Term",
+    "description":"This page will show you my goals and reflections from my first 8-month co-op term",
     "aboutLine":"About CIBC",
     "image":"/portfolio/cibc logo.jpg",
-    "bio":"CIBC is one of the five big banks in Canada. The bank is headquarted in Toronto with over 40 000 employess and over 10 million clients worldwide. My team was part of Capital Markets which deals with currency exchange.",
+    "bio":"CIBC is one of the five big banks in Canada. The bank is headquartered in Toronto with over 40 000 employees and over 10 million clients worldwide. My team was part of Capital Markets which deals with currency exchange.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jeans@uoguelph.ca",
     "phone": "647-654-2505",
@@ -40,7 +40,7 @@
     ],
     "goals":[
       {
-        "header":"Applying my universtiy knowledge to the real world",
+        "header":"Applying my university knowledge to the real world",
         "description":"During this co-op term I was mainly working with Java and following the object oriented principles to develop my module. This was my first co-op term so I wanted to take this opportunity to apply the object oriented principles I learned in university to the real world. My plan was to integrate OOP principles into any modules that I contributed to and understand how they enhance the overall flow of the application. I achieved this goal throughout the term by applying these principles in my module making and I even learned more programming concepts that I hadn’t learned in university such as defensive programming which is a core concept in banking software since an error in the code can cause huge implications for consumers."
       },
       {

@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import {Link} from "react-scroll";
-import Navigation from "./Navigation";
-import MobileNavigation from "./MobileNavigation";
 
 class Header extends Component {
   render() {
