@@ -86,8 +86,8 @@ class CoopTerm1 extends Component {
   render() {
     return (
       <div className="CoopTerm1">
-        <Navigation isHomePage={false}/>
-        <MobileNavigation isHomePage={false}/>
+        <Navigation isHomePage={true}/>
+        <MobileNavigation isHomePage={true}/>
         <Element name="header">
           <Header data={this.state.resumeData.main} name="header"/>
         </Element>
