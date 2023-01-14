@@ -3,12 +3,6 @@ import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
 import Home from "./Pages/Home";
 import Coop from "./Pages/Coop";
 
