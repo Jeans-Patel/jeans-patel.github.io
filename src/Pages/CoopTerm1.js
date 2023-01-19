@@ -11,6 +11,7 @@ import Resume from "../Components/Resume";
 import Contact from "../Components/Contact";
 import Portfolio from "../Components/Portfolio";
 import { Element } from "react-scroll";
+import { useLocation } from 'react-router-dom'
 
 // const CoopTerm1 = (props) => {
 //   const [coopTermdata, setCoopTermData] = useState({});
@@ -53,66 +54,116 @@ import { Element } from "react-scroll";
  
 // export default CoopTerm1;
 
-class CoopTerm1 extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      foo: "bar",
-      resumeData: {}
-    };
-    this.getResumeData = this.getResumeData.bind(this);
-  }
+// class CoopTerm1 extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       foo: "bar",
+//       resumeData: {}
+//     };
+//     this.getResumeData = this.getResumeData.bind(this);
+//   }
 
-  getResumeData() {
+//   getResumeData() {
+//     $.ajax({
+//       url: "./coopTerm1Data.json",
+//       dataType: "json",
+//       cache: false,
+//       success: function(data) {
+//         console.log(data.resume.education);
+//         this.setState({ resumeData: data });
+//       }.bind(this),
+//       error: function(xhr, status, err) {
+//         console.log(err);
+//         alert(err);
+//       }
+//     });
+//   }
+
+//   componentDidMount() {
+//     this.getResumeData();
+//   }
+
+//   render() {
+//     return (
+//       <div className="CoopTerm1">
+//         <Navigation isHomePage={false}/>
+//         <MobileNavigation isHomePage={false}/>
+//         <Element name="header">
+//           <Header data={this.state.resumeData.main} name="header"/>
+//         </Element>
+//         <Element name="about company">
+//           <About data={this.state.resumeData.main} name="about"/>
+//         </Element>
+//         <section id="resume">
+//           <Element name="about position">
+//             <CoopInfoSection data={this.state.resumeData.resume} title="Job Description"/>
+//           </Element>
+//           <Element name="goals">
+//             <CoopInfoSection data={this.state.resumeData.resume} title="Goals"/>
+//           </Element>
+//           <Element name="conclusion">
+//             <CoopInfoSection data={this.state.resumeData.resume} title="Conclusion"/>
+//           </Element>
+//           <Element name="acknowledgements">
+//             <CoopInfoSection data={this.state.resumeData.resume} title="Acknowledgements"/>
+//           </Element>
+//         </section>
+//         <Contact data={this.state.resumeData.main} name="contact"/>
+//         <Footer data={this.state.resumeData.main} />
+//       </div>
+//     );
+//   }
+// }
+
+function CoopTerm1() {
+  const [coopTermdata, setCoopTermData] = useState({});
+  const location = useLocation()
+  const { coopDataUrl } = location.state
+
+  useEffect(() => {
     $.ajax({
-      url: "./coopTerm1Data.json",
+      url: coopDataUrl,
       dataType: "json",
       cache: false,
       success: function(data) {
-        console.log(data.resume.education);
-        this.setState({ resumeData: data });
+        setCoopTermData(data);
       }.bind(this),
       error: function(xhr, status, err) {
         console.log(err);
         alert(err);
       }
     });
-  }
+  }, [])
 
-  componentDidMount() {
-    this.getResumeData();
-  }
-
-  render() {
-    return (
-      <div className="CoopTerm1">
+  return (
+      <div className="Coop">
         <Navigation isHomePage={false}/>
         <MobileNavigation isHomePage={false}/>
         <Element name="header">
-          <Header data={this.state.resumeData.main} name="header"/>
+          <Header data={coopTermdata.main} name="header"/>
         </Element>
         <Element name="about company">
-          <About data={this.state.resumeData.main} name="about"/>
+          <About data={coopTermdata.main} name="about"/>
         </Element>
         <section id="resume">
           <Element name="about position">
-            <CoopInfoSection data={this.state.resumeData.resume} title="Job Description"/>
+            <CoopInfoSection data={coopTermdata.resume} title="Job Description"/>
           </Element>
           <Element name="goals">
-            <CoopInfoSection data={this.state.resumeData.resume} title="Goals"/>
+            <CoopInfoSection data={coopTermdata.resume} title="Goals"/>
           </Element>
           <Element name="conclusion">
-            <CoopInfoSection data={this.state.resumeData.resume} title="Conclusion"/>
+            <CoopInfoSection data={coopTermdata.resume} title="Conclusion"/>
           </Element>
           <Element name="acknowledgements">
-            <CoopInfoSection data={this.state.resumeData.resume} title="Acknowledgements"/>
+            <CoopInfoSection data={coopTermdata.resume} title="Acknowledgements"/>
           </Element>
         </section>
-        <Contact data={this.state.resumeData.main} name="contact"/>
-        <Footer data={this.state.resumeData.main} />
+        <Contact data={coopTermdata.main} name="contact"/>
+        <Footer data={coopTermdata.main} />
       </div>
     );
   }
-}
 
 export default CoopTerm1;

@@ -14,7 +14,7 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <Link to={projects.src}>
+            <Link to="/CoopTerm1" state={{ coopDataUrl: projects.data}}>
               <img alt={projects.title} src={projectImage}/>
             </Link>
             <div style={{ textAlign: "center" }}>{projects.title}</div>

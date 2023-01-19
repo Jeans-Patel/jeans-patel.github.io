@@ -29,12 +29,6 @@ const HomeNavLinks = (props) => {
                 Co-ops
               </Link>
             </li>
-
-            <li>
-              <Link activeClassName="active" className="smoothscroll" to="contact" spy={true} smooth={true} onClick={() => props.isMobile && props.closeMenu()}>
-                Contact
-              </Link>
-            </li>
         </ul>
      );
 }
