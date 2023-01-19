@@ -121,19 +121,38 @@ function CoopTerm1() {
   const location = useLocation()
   const { coopDataUrl } = location.state
 
+  const getData=()=>{
+    fetch(coopDataUrl
+    ,{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }
+    )
+      .then(function(response){
+        console.log(response)
+        return response.json();
+      })
+      .then(function(myJson) {
+        console.log(myJson);
+      });
+  }
+
   useEffect(() => {
-    $.ajax({
-      url: coopDataUrl,
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        setCoopTermData(data);
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
+    getData()
+    // $.ajax({
+    //   url: coopDataUrl,
+    //   dataType: "json",
+    //   cache: false,
+    //   success: function(data) {
+    //     setCoopTermData(data);
+    //   }.bind(this),
+    //   error: function(xhr, status, err) {
+    //     console.log(err);
+    //     alert(err);
+    //   }
+    // });
   }, [])
 
   return (
