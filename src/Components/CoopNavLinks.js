@@ -5,7 +5,7 @@ const CoopNavLinks = (props) => {
     return ( 
         <ul id="nav" className="nav">
             <li>
-              <HomeLink to="/">
+              <HomeLink>
                 Home
               </HomeLink>
               {/* <a className="smoothscroll" href="#home">
