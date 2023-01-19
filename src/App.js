@@ -11,6 +11,7 @@ import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import Home from "./Pages/Home";
 import CoopTerm1 from "./Pages/CoopTerm1";
+import CoopTerm2 from "./Pages/CoopTerm2";
 
 class App extends Component {
   constructor(props) {
@@ -49,6 +50,7 @@ class App extends Component {
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/CoopTerm1" element={<CoopTerm1/>}/>
+          <Route path="/CoopTerm2" element={<CoopTerm2/>}/>
         </Routes>
       </BrowserRouter>
       // <div className="App">

@@ -36,7 +36,7 @@ class Footer extends Component {
           </Fade>
 
           <div id="go-top">
-            <Link activeClassName="active" className="smoothscroll" to="home" spy={true} smooth={true}>
+            <Link activeClass="active" className="smoothscroll" to="home" spy={true} smooth={true}>
               <i className="icon-up-open"></i>
             </Link>
           </div>
