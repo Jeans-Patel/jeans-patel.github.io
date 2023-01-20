@@ -25,7 +25,7 @@ class CoopTerm2 extends Component {
 
     getResumeData() {
         $.ajax({
-            url: "./coopTerm2Data.json",
+            url: "./CoopTerm2Data.json",
             dataType: "json",
             cache: false,
             success: function (data) {

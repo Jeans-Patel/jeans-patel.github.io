@@ -3,12 +3,6 @@ import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
 import Home from "./Pages/Home";
 import CoopTerm1 from "./Pages/CoopTerm1";
 import CoopTerm2 from "./Pages/CoopTerm2";
@@ -49,18 +43,10 @@ class App extends Component {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
-          <Route path="/CoopTerm1" element={<CoopTerm1/>}/>
-          <Route path="/CoopTerm2" element={<CoopTerm2/>}/>
+          <Route path="/cibc" element={<CoopTerm1/>}/>
+          <Route path="/ecobee" element={<CoopTerm2/>}/>
         </Routes>
       </BrowserRouter>
-      // <div className="App">
-      // <Header data={this.state.resumeData.main} />
-      //   <About data={this.state.resumeData.main} />
-      //   <Resume data={this.state.resumeData.resume} />
-      //   <Portfolio data={this.state.resumeData.portfolio} />
-      //   <Contact data={this.state.resumeData.main} />
-      //   <Footer data={this.state.resumeData.main} />
-      // </div>
     );
   }
 }
