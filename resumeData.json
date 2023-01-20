@@ -73,13 +73,13 @@
         "title":"CIBC - Java Developer",
         "category":"My first 8-month coop term",
         "image":"cibc logo.jpg",
-        "url":"/CoopTerm1"
+        "url":"/cibc"
       },
       {
         "title":"ecobee - Android Developer",
         "category":"My second 8-month coop term",
         "image":"ecobee logo.jpg",
-        "url":"/CoopTerm2"
+        "url":"/ecobee"
       }
     ]
   }
