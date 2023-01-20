@@ -29,7 +29,6 @@ class CoopTerm2 extends Component {
             dataType: "json",
             cache: false,
             success: function (data) {
-                console.log(data.resume.education);
                 this.setState({ resumeData: data });
             }.bind(this),
             error: function (xhr, status, err) {
